@@ -25,9 +25,6 @@ def es_numero(s):
     else:
         return False
 
-
-
-# Código para ingresar notas
 entrada = input("Ingrese las notas separadas por espacios: ")
 notas_str = entrada.split()
 notas = []
