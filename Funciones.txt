@@ -1,0 +1,151 @@
+Actividad de Taller de Funciones
+
+1.
+promedio: Calcula la media aritmética de las notas.
+- nota_mas_alta: Encuentra el valor máximo en la lista.
+- nota_mas_baja: Encuentra el valor mínimo en la lista.
+- es_numero: Valida que la entrada del usuario sea un número (entero o decimal) antes de procesarlo.
+
+Métodos y Control
+- split: Divide el texto ingresado en palabras individuales.
+- append: Agrega cada nota válida a la lista de procesamiento.
+- for / if: Recorren los datos y deciden qué acciones tomar según las condiciones establecidas.
+
+2.
+
+Funciones Personalizadas 
+- es_numero: (Presente en ambos) Valida que el texto ingresado sea un número decimal o entero para evitar errores de ejecución.
+- promedio: Realiza el cálculo de la media aritmética de una lista de notas.
+- nota_mas_alta / nota_mas_baja: Encuentran los valores máximos y mínimos dentro de un conjunto de datos.
+- estudiantes_aprobados: Filtra una lista de tuplas y extrae solo los nombres de quienes tienen una nota ≥ 3.0.
+
+Métodos y Estructuras de Control
+- split: Divide cadenas de texto en partes individuales (útil para procesar listas de una sola línea).
+- append: Inserta nuevos elementos o registros validados dentro de una lista.
+- lower: Normaliza el texto a minúsculas para facilitar cierres de ciclo (como la palabra "fin").
+- Bucle while: Permite la entrada continua de datos hasta que se cumpla una condición de parada.
+- Bucle for: Recorre las listas para procesar cada nota o cada estudiante de forma individual.
+- Condicionales (if/else): Gestionan la toma de decisiones y el flujo del programa según las entradas recibidas.
+
+3. 
+
+Funciones Personalizadas 
+- es_numero: Valida que una entrada sea numérica (entero/decimal) para evitar errores.
+- promedio, nota_mas_alta, nota_mas_baja: Realizan cálculos estadísticos sobre listas de notas.
+- estudiantes_aprobados: Filtra y devuelve los nombres de alumnos con nota $\geq$ 3.0.
+- agregar_contacto: Inserta un par de datos (nombre y teléfono) dentro de un diccionario.
+- buscar_contacto: Consulta si un nombre existe en el diccionario y devuelve su información.
+- eliminar_contacto: Borra un registro específico del diccionario tras verificar su existencia.
+- mostrar_menu: Imprime en pantalla las opciones disponibles para el usuario.
+
+
+Métodos y Estructuras de Controlget: Busca una clave en el diccionario sin que el programa falle si la clave no existe.
+- items: Permite recorrer simultáneamente las claves (nombres) y los valores (teléfonos) del diccionario.
+- del: Comando utilizado para eliminar una entrada específica de un diccionario.
+- split / isdigit / lower: Métodos para limpiar, validar y normalizar cadenas de texto.
+- append: Agrega elementos a una lista.
+- Bucle while True: Crea un ciclo infinito para que el programa siga funcionando hasta que se elija la opción "Salir".
+- Estructura if / elif / else: Dirige el flujo del programa hacia la función correcta según la opción seleccionada por el usuario.
+
+4.
+
+Funciones Personalizadas
+- es_numero: Valida que una entrada sea numérica (entero/decimal) para evitar errores de ejecución.
+- promedio, nota_mas_alta, nota_mas_baja: Realizan cálculos estadísticos sobre listas de notas.
+- estudiantes_aprobados: Filtra y devuelve nombres de alumnos con nota.
+- agregar_contacto / agregar: Insertan nuevos registros en diccionarios. En el inventario, organiza los datos en una estructura anidada.
+- buscar_contacto / eliminar_contacto: Gestionan la consulta y el borrado de registros específicos.
+- calcular_valor_total: Utiliza una expresión generadora para multiplicar precio por cantidad de cada producto y sumar el total de todo el inventario.
+- mostrar_menu / mostrar_inventario: Visualizan la información organizada y los resultados de los cálculos en la pantalla.
+
+Métodos y Estructuras de Controlitems
+- (): Permite recorrer las claves y los valores de los diccionarios simultáneamente.
+- values(): Obtiene únicamente los datos almacenados (precios y cantidades) para realizar cálculos sin necesidad de los nombres de los productos.
+- get(): Recupera información de un diccionario de forma segura.
+- split(), isdigit(), lower(): Métodos esenciales para la limpieza, validación y normalización de textos.
+- Bucle while: Mantiene la ejecución de programas interactivos (como la agenda).
+- Bucle for: Crucial para iterar sobre listas, diccionarios o tuplas para procesar datos uno a uno.
+- F-strings (Formateo): Utilizado en f"${valor:.2f}" para mostrar números con dos decimales, ideal para representar dinero o notas exactas.
+
+5. 
+
+Funciones Personalizadas 
+- es_numero: Valida que las entradas sean numéricas, permitiendo que el programa maneje decimales sin cerrarse por errores.
+- promedio / nota_mas_alta / nota_mas_baja: Realizan cálculos estadísticos sobre colecciones de datos numéricos.
+- estudiantes_aprobados: Filtra listas de registros para identificar elementos que cumplen un criterio específico.
+- agregar / agregar_contacto: Insertan información en diccionarios, ya sea como valores simples o estructuras anidadas (objetos dentro de objetos).
+- buscar_contacto / eliminar_contacto: Gestionan la localización y el borrado de datos específicos en estructuras de almacenamiento.
+- calcular_valor_total: Ejecuta operaciones aritméticas masivas sobre los valores de un inventario.
+- contar_frecuencia: Analiza una lista de palabras y genera un diccionario donde la clave es la palabra y el valor es la cantidad de veces que aparece.
+
+Métodos, Atributos y Control de Flujo
+- Manejo de Diccionarios (items, values, get): Permiten acceder a las claves, a los datos, o realizar búsquedas seguras dentro de un diccionario.
+- Manipulación de Cadenas (split, lower, isdigit): Herramientas para dividir textos, normalizarlos a minúsculas o verificar si son dígitos antes de procesarlos.
+- Gestión de Listas (append): Método para añadir nuevos elementos dinámicamente a una lista de datos.
+- Ciclo while: Crea bucles de ejecución continua para programas interactivos con menús.
+- Ciclo for: Estructura principal para recorrer (iterar) datos y aplicar lógica individual a cada elemento.
+- Condicionales (if / elif / else): Bloques de decisión que controlan qué parte del código se ejecuta según las entradas del usuario o los resultados de las operaciones.
+
+6. 
+
+Funciones Personalizadas
+- temperatura_mas_caliente: Identifica la ciudad con la temperatura más alta.
+- temperatura_mas_fria: Identifica la ciudad con la temperatura más baja.
+
+Métodos y Control de Flujo
+- items(): Recorre llaves y valores del diccionario simultáneamente.
+- Bucle for: Itera sobre las ciudades y sus listas de datos.
+- if: Compara y actualiza los valores máximos y mínimos.
+- inf: Inicializa variables para comparaciones numéricas seguras.
+
+7.
+
+Funciones Personalizadas
+- convertir: Transforma una calificación numérica en una letra (A-F) mediante rangos condicionales.
+- generar_reporte: Procesa un diccionario de alumnos para crear un nuevo registro con sus notas convertidas.
+
+Métodos y Control de Flujo
+- items(): Extrae el par nombre-nota del diccionario para su procesamiento.
+- Bucle for: Itera sobre cada estudiante para aplicar la conversión.
+- Estructura if / elif / else: Evalúa la nota numérica y determina la letra correspondiente según el rango alcanzado.
+
+8. 
+
+Funciones Personalizadas
+- agregar: Inserta una tupla (producto, precio) en la lista del carrito.
+- aplicar_descuento: Suma los precios y calcula el valor final restando el porcentaje indicado.
+- generar_reporte: Construye una cadena de texto con el listado detallado de productos.
+
+Métodos y Control de Flujo
+- append(): Añade cada nuevo producto al final de la lista.
+- sum(): Realiza la sumatoria de los precios mediante una comprensión de lista.
+- Bucle for: Recorre los elementos del carrito para generar el reporte textual.
+- F-strings: Formatea los precios con dos decimales (.2f) y estructura el mensaje de salida.
+
+9. 
+
+Funciones Personalizadas
+- agrupar_por_categoria: Organiza una lista de tuplas en un diccionario donde cada clave es una categoría y su valor es una lista con los nombres de los productos correspondientes.
+
+Métodos y Control de Flujo
+- append(): Agrega cada producto a la lista específica de su categoría dentro del diccionario.
+- items(): Permite iterar sobre las categorías y sus respectivas listas de productos para la impresión final.
+- join(): Concatena los elementos de la lista de productos en una sola cadena de texto separada por comas.
+- Bucle for: Recorre tanto la lista inicial de tuplas para agruparlas como el diccionario resultante para mostrar los datos.
+- Condicional if not in: Verifica si la categoría ya existe como clave en el diccionario; si no, la crea con una lista vacía para evitar errores al agrupar.
+
+10. 
+
+1. Funciones Personalizadas
+- registrar_votos: Crea un diccionario que contabiliza cuántas veces aparece cada candidato en la lista de sufragios.
+- votos_invalidos: Filtra la lista de votos para identificar y devolver aquellos nombres que no pertenecen a la lista oficial de candidatos.
+- determinar_ganador: Identifica al candidato con mayor votación y calcula su peso porcentual respecto al total de votos emitidos.
+
+2. Métodos y Control de Flujo
+- max(conteo, key=conteo.get): Encuentra la clave (candidato) que tiene el valor numérico (votos) más alto en el diccionario.
+- items(): Permite recorrer los candidatos y sus totales para imprimirlos.
+- join(): Concatena los votos marcados como inválidos en una sola línea de texto.
+- Comprensión de listas: Utilizada en votos_invalidos para crear rápidamente la lista de votos no permitidos.
+- Bucle for: Recorre la lista de votos para realizar el conteo inicial.
+- Condicionales (if / else): Validan la existencia de votos y la legitimidad de los candidatos antes de procesar los datos.
+- Operaciones Aritméticas: Cálculo manual del porcentaje multiplicando la razón por 100.
